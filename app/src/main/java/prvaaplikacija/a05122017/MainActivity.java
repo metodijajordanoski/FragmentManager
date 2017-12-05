@@ -24,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void setUpViewPager(ViewPager upViewPager) {
         MyPageAdapterPom adapter = new MyPageAdapterPom(this.getSupportFragmentManager());
+        adapter.addFragment(new Fragment1(),"tab1");
+        adapter.addFragment(new Fragment2(),"tab2");
+        adapter.addFragment(new Fragment3(),"tab3");
+        adapter.addFragment(new Fragment4(),"tab4");
         pager.setAdapter(adapter);
     }
 }
