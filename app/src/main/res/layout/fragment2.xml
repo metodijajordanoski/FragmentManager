@@ -20,7 +20,9 @@
 
     <ImageView
         android:layout_width="@dimen/image_wight"
-        android:layout_height="@dimen/image_height" />
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/brainster_and_code"
+        android:layout_alignParentRight="true"/>
 
 
 </RelativeLayout>
